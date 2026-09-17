@@ -1,0 +1,39 @@
+{
+  "student_name": "Prince Myron B. Panlilio",
+  "section": "TA31",
+  "ai_tool": "ChatGPT",
+  "entries": [
+    {
+      "use_case_id": "UC1",
+      "selected_resource_type": "always-on-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "An Always-On Sandbox is recommended for immediate, safe, and read-only API exploration without any setup delays. The shared environment offers instant access with restricted administrative privileges, making it an ideal fit for low-risk testing.",
+      "verification_status": "verified",
+      "rationale": "An Always-On Sandbox fits this scenario because it provides immediate shared access for API exploration without requiring administrative privileges or provisioning time."
+    },
+    {
+      "use_case_id": "UC2",
+      "selected_resource_type": "reservation-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "A Reservation Sandbox is recommended because it provides a private environment with administrative access for safely testing configuration changes.",
+      "verification_status": "verified",
+      "rationale": "Reservation Sandboxes is recommended for this scenario as it fulfills the necessary goal being private and requiring reservation while having administrative access and custom setup for automation. "
+    },
+    {
+      "use_case_id": "UC3",
+      "selected_resource_type": "learning-lab",
+      "official_evidence_url": "https://developer.cisco.com/learning/",
+      "ai_recommendation_summary": "A Learning Lab is recommended because it provides structured, step-by-step instruction for beginners learning API concepts and procedures.",
+      "verification_status": "verified",
+      "rationale": "Cisco Devnet Resources compiled learning resources that are stacked and structured from modules to fast phased lectures involving important topics involving networking and interacting with cisco environment."
+    },
+    {
+      "use_case_id": "UC4",
+      "selected_resource_type": "code-exchange",
+      "official_evidence_url": "https://developer.cisco.com/codeexchange/",
+      "ai_recommendation_summary": "Cisco Code Exchange is recommended because it provides existing code repositories and automation examples that developers can examine before creating a new solution.",
+      "verification_status": "verified",
+      "rationale": "Code Exchange is suitable for the defined case as it allows the user to navigate Cisco-maintained and community-made code repository for existing network-automation use cases before making a solution."
+    }
+  ]
+}
